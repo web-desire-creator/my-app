@@ -1,13 +1,11 @@
-import './globals.css'
-
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html>
       <head></head>
       <body>
-      <h1>Awesome Todo App</h1> 
-      {children}
+        <h1>Awesome Todo App</h1>
+        {children}
       </body>
     </html>
-  )
+  );
 }

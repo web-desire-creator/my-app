@@ -1,10 +1,11 @@
-import Addnewtodo from "./addnewtodo"
-import TodoList from "./todo-list"
+import AddNewTodo from "./add-new-todo";
+import TodoList from "./todo-list";
+
 export default function Page() {
   return (
-      <div> 
-        <Addnewtodo/> 
-        <TodoList/>
-      </div>
-  )
+    <div>
+      <AddNewTodo />
+      <TodoList />
+    </div>
+  );
 }
