@@ -3,7 +3,7 @@ export default function RootLayout({ children }) {
     <html>
       <head></head>
       <body>
-        <h1>Awesome Todo App</h1>
+        <h1>Bilal Todo App</h1>
         {children}
       </body>
     </html>
