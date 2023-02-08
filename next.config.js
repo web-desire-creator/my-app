@@ -6,7 +6,7 @@ const nextConfig = {
     return [
       {
         source: "/api/:path*",
-        destination: "http://localhost:3001/api/:path*",
+        destination: "https://json-api-kappa.vercel.app/api/:path*",
       },
     ];
   },
