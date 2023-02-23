@@ -23,16 +23,17 @@ export default function Todo({ todo }) {
   const router = useRouter();
 
   return (
-    <>
-      <input
+    <main className="m-auto text-center mt-5">
+      <input className="mr-5"
         type="checkbox"
         onChange={(e) => update(todo.id, e.target.checked, router.refresh)}
         checked={todo.isDone}
       />
       <span>{todo.name}</span>
-      <button onClick={() => deleteTodo(todo.id, router.refresh)}>
+      <button className="bg-black hover:bg-gray-700 text-white font-bold py-2 px-4 rounded-m mx-5"
+      onClick={() => deleteTodo(todo.id, router.refresh)}>
         Delete
       </button>
-    </>
+    </main>
   );
 }
